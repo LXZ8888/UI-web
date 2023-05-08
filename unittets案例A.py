@@ -1,8 +1,9 @@
+import time
 import unittest
 from unittets0B import B01
+from HTMLTestRunner import HTMLTestRunner
 
-
-#总结:看思维导图。案例包含：unittest基础语法规则、unittest用例执行（全部用例，部分用例，A-B，指定类用例 执行）
+#总结:看思维导图。案例包含：unittest基础语法规则、unittest用例执行（全部用例，部分用例，A-B，指定类用例 执行）、测试报告HTMLTestRunner
 # 类方法名称必须以 test 开头，否则是不被unittest识别成用例
 # 类的名称可以不以test开头
 '''
@@ -62,16 +63,30 @@ class YinuoTestcase02(unittest.TestCase):
 
 #指定类里面的全部用例执行
 if __name__ == '__main__':
+    t = time.strftime('%Y_%m_%d_%H_%M_%S', time.localtime(time.time()))
     testcases = unittest.TestSuite()   #步骤一：实例化。创建一个测试套件  。（相当于一个容器里面装用例然后运行）
     #添加一个类，指定类里面的用例全部执行
     testcases.addTests(unittest.TestLoader().loadTestsFromTestCase(YinuoTestcase02))   #步骤二：列表。往测试套件添加测试用例TestYiNuo
     #再添加一个类，在重复写一遍，因为loadTestsFromTestCase（参数）参数只能填一个，不能是列表
     testcases.addTests(unittest.TestLoader().loadTestsFromTestCase(YinuoTestcase01))
     runner = unittest.TextTestRunner()   #步骤三：实例化对象过程。一个基础的测试执行器，实现了将结果输出为流的功能。
-    runner.run(testcases)                  #调用
+    # runner.run(testcases)                  #调用
     #运行结果Ran 2 tests in 0.000s OK 模块2测试用例06  模块2测试用例07
 
+    # 1、定义报告路径，2、测试结果写入到一个html文件里面 3、运行用例，用例的执行结果写入到html文件里面
+    # 定义测试报告生成的当前路径：
+    report_dir = './test_report_{}.html'.format(t)
+    # 往测试报告写入测试结果，w表示打开文件的方式是“写入”,b表示二进制
+    file = open(report_dir, 'wb')
 
+    # 通过HTMLTestRunner运行测试套件
+    runner = HTMLTestRunner(
+        title="测试企业级项目",
+        description="自动化用例测试报告",
+        stream=file,
+        verbosity=2,
+    )
+    runner.run(testcases)
 
 
 
