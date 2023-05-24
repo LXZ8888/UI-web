@@ -6,9 +6,40 @@
   <component name="ChangeListManager">
     <list default="true" id="30a97dee-00ee-40f7-9a11-e7cdea4b48dd" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unittest测试用例接口.xmind" beforeDir="false" afterPath="$PROJECT_DIR$/unittest测试用例接口.xmind" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unittets案例A.py" beforeDir="false" afterPath="$PROJECT_DIR$/unittets案例A.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/前后置案例登录搜索实战.py" beforeDir="false" afterPath="$PROJECT_DIR$/前后置案例登录搜索实战.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APP自动化/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APP自动化/.idea/APP自动化.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APP自动化/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APP自动化/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APP自动化/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APP自动化/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APP自动化/APP自动化.xmind" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APP自动化/App自动化.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APP自动化/App自动化.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APP自动化/home.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APP自动化/~$App自动化.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTMLTestRunner.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PO-模型/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PO-模型/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PO-模型/.idea/learnPageObject.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PO-模型/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PO-模型/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PO-模型/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PO-模型/HomePage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PO-模型/InitBrowser.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PO-模型/LoginPage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PO-模型/testcases.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/po模型-偏实战代码.xmind" beforeDir="false" afterPath="$PROJECT_DIR$/po模型-偏实战代码.xmind" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_report_2023_05_08_21_33_47.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_report_2023_05_09_22_23_08.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unittest官方文档demo项目参考案例.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unittest测试用例_断言_测试报告.xmind" beforeDir="false" afterPath="$PROJECT_DIR$/unittest测试用例_断言_测试报告.xmind" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unittets0B.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unittets案例A_测试报告.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/前后置案例登录搜索实战.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/接口自动化测试.xmind" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/用例的前后置操作.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,7 +169,6 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.unittets案例A" />
-        <item itemvalue="Python tests.Python tests for 前后置案例登录搜索实战.TestStringMethods" />
         <item itemvalue="Python tests.Python tests for lx.TestStringMethods" />
         <item itemvalue="Python tests.Python tests for 前后置案例实战.TestStringMethods" />
         <item itemvalue="Python tests.Python tests in 前后置案例实战.py" />
